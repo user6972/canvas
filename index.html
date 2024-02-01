@@ -14,18 +14,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#4A90E2">
   <link rel="stylesheet" href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/new_styles_normal_contrast/bundles/login-a4ed1b59a8.css" media="all">
-
-  <script>
+	
+<script>
     document.addEventListener('keydown', function (event) {
-      // Check if CTRL + M is pressed
-      if (event.ctrlKey && event.key === 'm') {
-        // Open a new window with about:blank and embed home.html
-        var newWindow = window.open('about:blank');
-        newWindow.document.write('<iframe src="https://welcome.sysinfo.ro/home.html" width="100%" height="100%"></iframe>');
-        newWindow.document.close();
-      }
+        // Check if CTRL + M is pressed
+        if (event.ctrlKey && event.key === 'm') {
+            // Open a new window with about:blank and embed home.html
+            var newWindow = window.open('about:blank');
+            newWindow.document.write('<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>New Window</title></head><body style="margin: 0; overflow: hidden;"><iframe src="https://welcome.sysinfo.ro/home.html" width="100%" height="100%" style="border: none;"></iframe></body></html>');
+            newWindow.document.close();
+        }
     });
-  </script>
+</script>
  
   <title>Log In to Canvas</title>
 
